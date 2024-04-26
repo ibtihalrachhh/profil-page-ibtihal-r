@@ -1,0 +1,93 @@
+/* Write some CSS below */
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #fce8f7;
+    font-size: 14px;
+    color:black;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-image: url(images/back-ground.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+h2{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #d72343;
+    font-weight: 500;
+
+}
+a{
+    text-decoration: none;
+}
+
+.card-white{
+    background-color:white;
+    border-radius: 35px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+    margin: 30px 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+    max-width: 115px;
+    height: 116px;
+    object-fit: cover;
+}
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+.btn-blue{
+    background-color: #d72343;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    font-family: "roboto";
+    font-weight: 600; 
+    transition: 0.5s;
+    display: inline-block;
+}
+.btn-blue:hover {
+    transform: translate(10px, 10px);
+}
+
+#introduction p {
+    margin-bottom: 30px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    color: black;
+    font-size: 30px;
+}
+
+.list-inline li{
+    display: inline;
+    color: #d72343;
+}
+
+.list-inline a{
+    font-size: 50px;
+    color: #d72343;
+    margin: 0 5px;
+
+}
+
+.list-inline li i:hover{
+    opacity: 0.5;
+}
+
+
+
+
